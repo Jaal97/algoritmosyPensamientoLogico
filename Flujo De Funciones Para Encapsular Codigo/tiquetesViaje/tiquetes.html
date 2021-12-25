@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Venta Tiquetes</title>
+
+</head>
+<style>
+    body
+    {
+        background-image: url("tickets.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lavender;
+    }
+
+</style>
+<body>
+    <h1>Vende Ticket</h1>
+    
+    <p>
+        Ciudad de origen
+        <select name="origen" id="origen">
+            <option value="Cucuta">Cucuta</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Bogota">Bogota</option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Tunja">Tunja</option>
+
+        </select>
+    </p>
+    <p>
+        Ciudad de destino
+        <select name="destino" id="destino">
+            <option value="Cucuta">Cucuta</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Bogota">Bogota</option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Tunja">Tunja</option>
+
+        </select>
+    </p>
+    <p>Ingresa tu nombre y apellido
+        <input type="text" id="datos" />
+    </p>
+    <p>
+        Cantidad de puestos que deseas 
+        <input type="number" id="puestos" />
+    </p>
+    <p><strong>Metodo de viaje</strong>
+    </br>
+    </br>
+        <input type="button" value="Avion" id="Avion"/>
+        <input type="button" value="Autobus" id="Autobus" />
+    </p>
+    
+    <p>Ingresa hora y fecha del viaje
+        <input type="text" id="fViaje"/>
+    </p>
+    <p>
+        <input type="submit" value="Vender tiquete" id="vende" />
+    </p>
+    <p id="resultado"></p>
+<script src="boletos.js"></script>
+</body>
+
+</html>

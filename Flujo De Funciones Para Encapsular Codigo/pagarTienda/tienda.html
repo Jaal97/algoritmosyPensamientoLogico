@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tiendalu</title>
+    </head>
+    <style>
+        body
+        {
+        
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: azure;
+        }
+
+    </style>
+    
+    <body>
+        <h2>Registro de ventas y cuentas de clientes</h2>
+        <p>
+            Cuenta del cliente
+            <select name="cliente" id="cliente">
+                <option value="1">Juan Pijama</option>
+                <option value="2">Camilo Chinchilla</option>
+                <option value="3">Stan Pymes</option>
+                <option value="4">Julieta Scart</option>
+               
+            </select>
+        </p>
+        <p>
+            Elije la cantidad de prendas
+            <input type="number" value="0" id="prendas" />
+        </p>
+        <p>
+            Selecciona el tipo de prenda
+            <select name="tipo" id="tipo">
+                <option value="1">Blusa</option>
+                <option value="2">Camiseta</option>
+                <option value="3">Pantalones</option>
+                <option value="4">Sudadera</option>
+               
+            </select>
+        </p>
+        <p>
+            <input type="button" value="Agregar Prenda" id="agregaP" />
+            
+        </p>
+        <p>
+            Para conocer el total de prendas y su valor
+            <input type="button" value="terminar" id="terminar" />
+            <p id="escribe"></p>
+        </p>
+        <script src="pagoTienda.js"></script>
+    </body>
+</html>

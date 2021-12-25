@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Pedidos</title>
+    </head>
+    <body>
+        <h2>Vamos a tomar tu pedido</h2>
+        <p>
+            Nombre del cliente
+        <input type="text" id="nCliente"/>
+        Numero de mesa
+        <input type="number" id="mesa" />
+        </p>
+        <p>
+            Fecha
+            <input type="number" id="fecha" />
+        </p>
+        <p>
+            Plato o comida
+            <select name="plato" id="plato">
+                <option value="1">Casuela de Mariscos</option>
+                <option value="2">Bandeja Paisa</option>
+                <option value="3">Arroz Mixto</option>
+                <option value="4">PolloBBQ</option>
+
+
+            </select>
+        </p>
+        <p>
+            Cantidad
+            <input type="number" id="cantidadPlato" />
+        </p>
+        
+        <p>
+            Bebida
+            <select name="bebida" id="bebida">
+                <option value="1">Gaseosa Grande</option>
+                <option value="2">Gaseosa Personal</option>
+                <option value="3">Agua Grande</option>
+                <option value="4">Agua Pequeña</option>
+                <option value="5">Te</option>
+            </select>
+        </p>
+        <p>
+            Cantidad
+            <input type="number" id="cantidadBebida" />
+        </p>
+        <p>
+            <input type="button" value="Tomar Pedido" id="tomaPedido" />
+        </p>
+    
+        <p id="escribe"></p>
+        <script src="tomaPedidos.js"></script>
+    </body>
+</html>
